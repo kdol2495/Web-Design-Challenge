@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="mxtmp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="hmdty.html">Humidity</a>
+                        <a class="dropdown-item" href="cldness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wndspd.html">Wind Speed</a>
+                    </div>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" href="cmpr.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Left Side Content (Changes)-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="box">
+            <h3 class="title">Max Temperature</h3>
+            <hr>
+            <br>
+              <img src="assets/images/Fig1.png" alt="max_temperature" style="width:100%">
+              <p>The visualization shows, as you may already know, that temperature increases as one gets closer to the equator.</p>
+          </div>
+        </div>
+
+        <!--Right Side Content (Stays the same)-->
+        <div class="col-md-5">
+            <div class="box">
+              <h5 class="title">Visualizations</h5>
+              <hr>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="mxtmp.html">
+                      <img class="panel" src="assets/images/Fig1.png" alt="max_temperature" style="width:100%">
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="hmdty.html">
+                      <img class="panel" src="assets/images/Fig2.png" alt="humidity" style="width:100%">
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="cldness.html">
+                      <img class="panel" src="assets/images/Fig3.png" alt="cloudiness" style="width:100%">
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="wndspd.html">
+                      <img class="panel" src="assets/images/Fig4.png" alt="wind_speed" style="width:100%">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
